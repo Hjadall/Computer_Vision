@@ -7,6 +7,13 @@ import matplotlib.image as mpimg
 import pandas as pd
 import cv2
 
+import pandas as pd
+import os
+import numpy as np
+from torch.utils.data import Dataset
+import matplotlib.image as mpimg
+import random
+from torchvision import transforms, utils
 
 class FacialKeypointsDataset(Dataset):
     """Face Landmarks dataset."""
@@ -14,7 +21,7 @@ class FacialKeypointsDataset(Dataset):
     def __init__(self, csv_file, root_dir, transform=None):
         """
         Args:
-            csv_file (string): Path to the csv file with annotations.
+            csv_file (string): Path to the CSV file with annotations.
             root_dir (string): Directory with all the images.
             transform (callable, optional): Optional transform to be applied
                 on a sample.
@@ -27,25 +34,25 @@ class FacialKeypointsDataset(Dataset):
         return len(self.key_pts_frame)
 
     def __getitem__(self, idx):
-        image_name = os.path.join(self.root_dir,
-                                self.key_pts_frame.iloc[idx, 0])
-        
+        # Load image
+        image_name = os.path.join(self.root_dir, self.key_pts_frame.iloc[idx, 0])
         image = mpimg.imread(image_name)
         
-        # if image has an alpha color channel, get rid of it
-        if(image.shape[2] == 4):
-            image = image[:,:,0:3]
+        # Remove alpha channel if it exists
+        if image.shape[2] == 4:
+            image = image[:, :, :3]
         
-#         key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
-        key_pts = self.key_pts_frame.iloc[idx, 1:].values
-        key_pts = key_pts.astype('float').reshape(-1, 2)
+        # Convert keypoints to a NumPy array and reshape
+        key_pts = self.key_pts_frame.iloc[idx, 1:].values.astype('float').reshape(-1, 2)
+        
+        # Create sample dictionary
         sample = {'image': image, 'keypoints': key_pts}
 
+        # Apply transformations if available
         if self.transform:
             sample = self.transform(sample)
 
         return sample
-    
 
     
 # tranforms
@@ -82,64 +89,101 @@ class Rescale(object):
             matched to output_size. If int, smaller of image edges is matched
             to output_size keeping aspect ratio the same.
     """
-
     def __init__(self, output_size):
         assert isinstance(output_size, (int, tuple))
-        self.output_size = output_size
+        self.output_size = (output_size, output_size) if isinstance(output_size, int) else output_size
 
     def __call__(self, sample):
         image, key_pts = sample['image'], sample['keypoints']
+        new_h, new_w = self.output_size
 
-        h, w = image.shape[:2]
-        if isinstance(self.output_size, int):
-            if h > w:
-                new_h, new_w = self.output_size * h / w, self.output_size
-            else:
-                new_h, new_w = self.output_size, self.output_size * w / h
-        else:
-            new_h, new_w = self.output_size
-
-        new_h, new_w = int(new_h), int(new_w)
-
+        # Resize image directly to the target size
         img = cv2.resize(image, (new_w, new_h))
-        
-        # scale the pts, too
+
+        # Scale keypoints accordingly
+        h, w = image.shape[:2]
         key_pts = key_pts * [new_w / w, new_h / h]
 
         return {'image': img, 'keypoints': key_pts}
 
 
-class RandomCrop(object):
-    """Crop randomly the image in a sample.
-
-    Args:
-        output_size (tuple or int): Desired output size. If int, square crop
-            is made.
-    """
-
+class Resize:
     def __init__(self, output_size):
-        assert isinstance(output_size, (int, tuple))
-        if isinstance(output_size, int):
-            self.output_size = (output_size, output_size)
-        else:
-            assert len(output_size) == 2
-            self.output_size = output_size
+        self.output_size = output_size
 
     def __call__(self, sample):
-        image, key_pts = sample['image'], sample['keypoints']
+        image, keypoints = sample['image'], sample['keypoints']
+        image = cv2.resize(image, (self.output_size[1], self.output_size[0]))
+        return {'image': image, 'keypoints': keypoints}
 
+
+import random
+import numpy as np
+import cv2
+
+class GrayscaleJitter:
+    """Apply brightness and contrast jitter to grayscale images."""
+
+    def __init__(self, brightness=0.2, contrast=0.2):
+        self.brightness = brightness
+        self.contrast = contrast
+
+    def __call__(self, sample):
+        image, keypoints = sample['image'], sample['keypoints']
+        
+        # Adjust brightness
+        if self.brightness > 0:
+            brightness_factor = 1 + random.uniform(-self.brightness, self.brightness)
+            image = np.clip(image * brightness_factor, 0, 1)
+
+        # Adjust contrast
+        if self.contrast > 0:
+            contrast_factor = 1 + random.uniform(-self.contrast, self.contrast)
+            mean = np.mean(image)
+            image = np.clip((image - mean) * contrast_factor + mean, 0, 1)
+
+        return {'image': image, 'keypoints': keypoints}
+
+
+
+class RandomRotate:
+    def __init__(self, max_angle=10):
+        self.max_angle = max_angle
+
+    def __call__(self, sample):
+        image, keypoints = sample['image'], sample['keypoints']
+        
+        # Generate a random angle for rotation
+        angle = random.uniform(-self.max_angle, self.max_angle)
         h, w = image.shape[:2]
-        new_h, new_w = self.output_size
+        center = (w // 2, h // 2)
+        
+        # Rotate image
+        rotation_matrix = cv2.getRotationMatrix2D(center, angle, scale=1.0)
+        rotated_image = cv2.warpAffine(image, rotation_matrix, (w, h))
+        
+        # Rotate keypoints
+        rotated_keypoints = self.rotate_keypoints(keypoints, center, angle)
+        
+        return {'image': rotated_image, 'keypoints': rotated_keypoints}
 
-        top = np.random.randint(0, h - new_h)
-        left = np.random.randint(0, w - new_w)
+    def rotate_keypoints(self, keypoints, center, angle):
+        """Rotate keypoints around a center point by a given angle."""
+        angle_rad = np.deg2rad(angle)
+        cos, sin = np.cos(angle_rad), np.sin(angle_rad)
 
-        image = image[top: top + new_h,
-                      left: left + new_w]
+        # Translate points to origin
+        translated_points = keypoints - center
 
-        key_pts = key_pts - [left, top]
+        # Apply rotation matrix
+        rotated_points = np.empty_like(translated_points)
+        rotated_points[:, 0] = translated_points[:, 0] * cos - translated_points[:, 1] * sin
+        rotated_points[:, 1] = translated_points[:, 0] * sin + translated_points[:, 1] * cos
 
-        return {'image': image, 'keypoints': key_pts}
+        # Translate points back
+        rotated_points += center
+        return rotated_points
+
 
 
 class ToTensor(object):
