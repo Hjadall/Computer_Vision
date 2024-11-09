@@ -35,7 +35,7 @@ This project demonstrates a deep learning approach to facial landmark detection,
 
 ---
 
-## 3. Image Captioning with LSTMs *(still in progress)*
+## 3. Image Captioning with LSTMs
 
 The Image Captioning with LSTMs project generates descriptive captions for images by combining a Convolutional Neural Network (CNN) with Long Short-Term Memory (LSTM) networks.
 
@@ -46,3 +46,34 @@ The Image Captioning with LSTMs project generates descriptive captions for image
 - **Training**: The model is trained using categorical cross-entropy loss to compare predicted captions with ground truth captions.
 
 This project illustrates how deep learning methods can be applied to image-to-text tasks, bridging the gap between computer vision and natural language processing.
+
+---
+
+## 4. Landmark detection using SLAM
+
+This project demonstrates my capability in implementing landmark detection and tracking using SLAM (Simultaneous Localization and Mapping) techniques. The goal was to detect and track specific landmarks across a series of images, enabling real-time navigation and environmental mapping applications.
+
+## Project Overview
+
+- **Objective**: To develop a robust system that identifies and continuously tracks landmarks in a dynamic environment.
+- **Techniques Used**: Feature extraction, SLAM-based tracking, and real-time visualization of detected landmarks.
+- **Tools and Libraries**: Python, OpenCV, NumPy, and Matplotlib.
+  
+## Key Features
+
+- **Landmark Detection**: Employed image processing methods to detect notable landmarks, leveraging feature extraction techniques like edge detection and corner detection.
+- **Tracking**: Used SLAM algorithms to maintain the positions of each detected landmark over time, even with minor changes in camera viewpoint.
+- **Visualization**: Implemented a real-time visualization to display the detected and tracked landmarks, providing insights into tracking accuracy and stability.
+
+## Results
+
+The project successfully tracked landmarks across frames, showing robustness against moderate occlusions and variations in perspective. This implementation serves as a foundation for applications in autonomous navigation and mapping.
+
+## Key Learnings
+
+This project enhanced my understanding of:
+- SLAM and its applications in computer vision.
+- Feature detection and tracking for dynamic environments.
+- Practical experience in visualizing real-time tracking data.
+
+
