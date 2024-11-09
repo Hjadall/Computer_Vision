@@ -1,0 +1,64 @@
+1
+00:00:00,234 --> 00:00:02,901
+A arquitetura da rede
+foi padrão.
+
+2
+00:00:02,934 --> 00:00:06,567
+Foi tirada do Google.
+É uma convolução recorrente.
+
+3
+00:00:06,601 --> 00:00:09,734
+A rede é demonstrada aqui.
+Há camadas diferentes.
+
+4
+00:00:09,767 --> 00:00:13,734
+Testamos redes
+completamente não treinadas
+
+5
+00:00:13,767 --> 00:00:17,467
+e redes pré-treinadas
+com outras imagens.
+
+6
+00:00:17,701 --> 00:00:21,567
+Nós introduzimos as imagens
+que queríamos
+
+7
+00:00:21,601 --> 00:00:23,434
+das lesões da pele
+
+8
+00:00:23,467 --> 00:00:25,968
+e treinamos
+o rótulo de classe.
+
+9
+00:00:26,000 --> 00:00:28,267
+Não usamos 2 mil rótulos
+de classe.
+
+10
+00:00:28,300 --> 00:00:31,300
+Muitos estavam escritos errado
+e eram réplicas.
+
+11
+00:00:31,334 --> 00:00:34,367
+Fizemos 757 rótulos
+de classe.
+
+12
+00:00:34,400 --> 00:00:37,267
+Se quiser,
+pode ler na documentação.
+
+13
+00:00:37,300 --> 00:00:40,167
+Treinamos a rede para detectar
+o rótulo de classe.
+

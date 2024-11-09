@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:03,194
+And the answer is, if a network spits out a random number,
+
+2
+00:00:03,194 --> 00:00:04,750
+then the output, the RC curve,
+
+3
+00:00:04,750 --> 00:00:07,665
+is going to be a straight line.
+
+4
+00:00:07,665 --> 00:00:10,484
+You can dial up your threshold.
+
+5
+00:00:10,484 --> 00:00:11,699
+And the more dial up,
+
+6
+00:00:11,699 --> 00:00:12,929
+the more cancers you'll find,
+
+7
+00:00:12,929 --> 00:00:14,570
+but there are also more non-cancerous you'll find.
+
+8
+00:00:14,570 --> 00:00:17,280
+And the ratio of cancerous-non-cancerous would be linear.
+
+9
+00:00:17,280 --> 00:00:20,810
+Therefore, a completely random algorithm will just show you a straight line.
+
+10
+00:00:20,809 --> 00:00:22,829
+In fact, anything below the straight line,
+
+11
+00:00:22,829 --> 00:00:26,250
+you should run in a sample test because it just actively kill people,
+
+12
+00:00:26,250 --> 00:00:27,480
+okay? And we don't know that.
+

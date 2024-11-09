@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:03,770
+Let me use these medical words because it makes sense.
+
+2
+00:00:03,770 --> 00:00:08,039
+A algorithm is deemed to be sensitive to cancer if it finds cancer.
+
+3
+00:00:08,039 --> 00:00:10,694
+So to make your algorithm maximally sensitive,
+
+4
+00:00:10,695 --> 00:00:12,960
+you classify everything as cancer.
+
+5
+00:00:12,960 --> 00:00:15,890
+And it finds all the cancer, it gets 100 percent sensitivity.
+
+6
+00:00:15,890 --> 00:00:17,850
+Now, that's not a good algorithm,
+
+7
+00:00:17,850 --> 00:00:20,385
+because now you cut out every single mole you find.
+
+8
+00:00:20,385 --> 00:00:22,160
+The opposite of this is specificity,
+
+9
+00:00:22,160 --> 00:00:24,615
+and so you want 100 percent specificity
+
+10
+00:00:24,614 --> 00:00:28,000
+because you only want to send things so the lab that are actually cancer.
+

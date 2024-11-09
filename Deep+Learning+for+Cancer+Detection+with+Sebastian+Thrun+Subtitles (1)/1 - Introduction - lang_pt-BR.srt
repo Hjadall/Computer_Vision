@@ -1,0 +1,52 @@
+1
+00:00:00,267 --> 00:00:02,067
+Oi, meu nome é Sebastian.
+
+2
+00:00:02,100 --> 00:00:05,834
+Você deve me conhecer como
+o padrinho dos carros autônomos,
+
+3
+00:00:05,868 --> 00:00:08,434
+o cofundador do Udacity
+
+4
+00:00:08,467 --> 00:00:11,501
+ou como um cara que mora
+em Palo Alto,
+
+5
+00:00:11,534 --> 00:00:14,267
+mas também dou aula
+em Stanford.
+
+6
+00:00:14,300 --> 00:00:18,901
+Meus alunos e eu usamos
+o câncer de pele
+
+7
+00:00:18,934 --> 00:00:21,667
+como uma aplicação
+do aprendizado profundo.
+
+8
+00:00:21,701 --> 00:00:26,300
+Vou mostrar os resultados
+que obtivemos e fazer perguntas,
+
+9
+00:00:26,334 --> 00:00:29,801
+mas o mais importante
+é que, no fim, você vai poder
+
+10
+00:00:29,834 --> 00:00:34,167
+treinar a sua rede profunda
+para detectar o câncer de pele,
+
+11
+00:00:34,200 --> 00:00:36,133
+usando um DSA internacional.
+

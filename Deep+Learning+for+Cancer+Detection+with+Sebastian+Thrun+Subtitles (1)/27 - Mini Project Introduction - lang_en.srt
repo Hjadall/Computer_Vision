@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:02,020
+Back to skin images.
+
+2
+00:00:02,020 --> 00:00:05,910
+We have, through an international collaboration of skin imaging,
+
+3
+00:00:05,910 --> 00:00:08,894
+make available to you a dataset where you can now
+
+4
+00:00:08,894 --> 00:00:13,309
+go and train your own skin classify using deep learning.
+
+5
+00:00:13,310 --> 00:00:15,870
+The dataset is available next.
+
+6
+00:00:15,869 --> 00:00:21,000
+And I hope you have fun building your own pocket dermatologist.
+

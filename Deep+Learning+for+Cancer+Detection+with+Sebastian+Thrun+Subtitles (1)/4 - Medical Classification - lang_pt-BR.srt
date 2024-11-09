@@ -1,0 +1,74 @@
+1
+00:00:00,067 --> 00:00:05,400
+Aqui vemos a evolução natural
+do melanoma de 2003 a 2006.
+
+2
+00:00:05,434 --> 00:00:09,534
+Os médicos usam características
+para encontrar o melanoma.
+
+3
+00:00:09,567 --> 00:00:12,100
+Eles analisam a imprecisão
+da borda, a assimetria,
+
+4
+00:00:12,133 --> 00:00:14,968
+a coloração,
+a taxa de crescimento...
+
+5
+00:00:15,000 --> 00:00:18,834
+Mas classificar melanomas
+é difícil.
+
+6
+00:00:18,868 --> 00:00:22,534
+É difícil porque algumas pessoas
+têm muitas pintas.
+
+7
+00:00:22,567 --> 00:00:26,133
+Aqui temos imagens clínicas
+e podemos ver as pintas.
+
+8
+00:00:26,167 --> 00:00:28,734
+Encontrar a maligna
+é muito difícil.
+
+9
+00:00:28,767 --> 00:00:31,234
+Os dermatologistas
+são muito treinados
+
+10
+00:00:31,267 --> 00:00:34,334
+para encontrar
+melanomas e carcinomas.
+
+11
+00:00:34,367 --> 00:00:36,901
+Como resultado,
+eles ganham muito dinheiro.
+
+12
+00:00:36,934 --> 00:00:40,934
+Um dermatologista nos EUA
+ganha mais de US$ 400 mil por ano.
+
+13
+00:00:40,968 --> 00:00:43,067
+Existem cerca de 10 mil
+no total
+
+14
+00:00:43,100 --> 00:00:45,000
+e é difícil treiná-los
+
+15
+00:00:45,033 --> 00:00:48,634
+porque tomam decisões
+de vida ou morte no diagnóstico.
+

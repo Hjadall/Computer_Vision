@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,339
+Just to show how difficult it is to find skin cancer,
+
+2
+00:00:02,339 --> 00:00:04,224
+I challenge you to look at this image,
+
+3
+00:00:04,224 --> 00:00:07,574
+and if you have a doctor in your family or your friends,
+
+4
+00:00:07,575 --> 00:00:11,250
+show them the image and ask them what they think is cancer.
+
+5
+00:00:11,250 --> 00:00:13,335
+You can see different types of lesions,
+
+6
+00:00:13,335 --> 00:00:15,450
+and you can see benign and malignant lesions,
+
+7
+00:00:15,449 --> 00:00:17,939
+and these are all correctly classified.
+
+8
+00:00:17,940 --> 00:00:21,105
+And I challenge you to find the pattern that tells
+
+9
+00:00:21,105 --> 00:00:27,283
+the 12 images on the top part from the 12 images at the bottom. It's not an easy thing.
+
+10
+00:00:27,283 --> 00:00:31,649
+That's how you thought a neural network is a good candidate because neural networks can
+
+11
+00:00:31,649 --> 00:00:33,984
+process hundreds of thousands of images as
+
+12
+00:00:33,984 --> 00:00:38,000
+a human doctor can never study as many as you can feed into a neural network.
+

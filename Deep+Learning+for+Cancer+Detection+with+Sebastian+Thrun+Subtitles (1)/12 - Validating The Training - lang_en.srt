@@ -1,0 +1,136 @@
+1
+00:00:00,000 --> 00:00:02,710
+To validate our results,
+
+2
+00:00:02,710 --> 00:00:05,025
+we constructed an independent test set,
+
+3
+00:00:05,025 --> 00:00:06,885
+and we've worked really hard to clean up the data.
+
+4
+00:00:06,884 --> 00:00:09,660
+The data was, in many cases, had duplicates,
+
+5
+00:00:09,660 --> 00:00:12,285
+we didn't want just split trading and test and there's
+
+6
+00:00:12,285 --> 00:00:15,227
+a chance that the same image occurs in training and testing.
+
+7
+00:00:15,227 --> 00:00:16,859
+It had some data markers,
+
+8
+00:00:16,859 --> 00:00:20,405
+some dermatologist had put markers on specific classes.
+
+9
+00:00:20,405 --> 00:00:23,325
+Like they picked yellow markers for size determination.
+
+10
+00:00:23,324 --> 00:00:25,457
+And of course, we didn't want to take an interval to find yellow markers,
+
+11
+00:00:25,457 --> 00:00:28,464
+we wanted to find cancers so a way to remove those images and clean them up.
+
+12
+00:00:28,464 --> 00:00:33,210
+But after the clean up, we were able to take a subset of the images to be testing set,
+
+13
+00:00:33,210 --> 00:00:36,736
+and as you always do to validate your results.
+
+14
+00:00:36,735 --> 00:00:39,299
+And interestingly enough, the very first
+
+15
+00:00:39,299 --> 00:00:42,195
+time we did a three way classification between melanoma's, carcinomas,
+
+16
+00:00:42,195 --> 00:00:43,859
+and P nine we,
+
+17
+00:00:43,859 --> 00:00:48,409
+got a 72 percent accuracy in finding cancers.
+
+18
+00:00:48,409 --> 00:00:51,886
+And, we felt that was significant.
+
+19
+00:00:51,887 --> 00:00:53,561
+So we decided to go to
+
+20
+00:00:53,561 --> 00:00:56,245
+the School of Medicine and open the door of the real dermatologist.
+
+21
+00:00:56,246 --> 00:00:59,625
+And the person whose name I named here,
+
+22
+00:00:59,625 --> 00:01:02,280
+was willing enough to look at the same images as we used for
+
+23
+00:01:02,280 --> 00:01:06,885
+testing and was 65 percent correct.
+
+24
+00:01:06,885 --> 00:01:10,109
+A whooping 6.4 percent less than us.
+
+25
+00:01:10,109 --> 00:01:12,599
+That is significant in cancer detection.
+
+26
+00:01:12,599 --> 00:01:15,509
+So we knocked on the door of a second dermatologist and asked the same question.
+
+27
+00:01:15,510 --> 00:01:16,810
+He was willing enough to do it,
+
+28
+00:01:16,810 --> 00:01:20,649
+and we got to 66 percent correct classification rate.
+
+29
+00:01:20,649 --> 00:01:22,560
+So we had all of a sudden,
+
+30
+00:01:22,560 --> 00:01:24,040
+in knowing that rock that,
+
+31
+00:01:24,040 --> 00:01:27,195
+if looking at images seemed more accurate than
+
+32
+00:01:27,194 --> 00:01:31,184
+two board certified Stanford level of interest in finding skin cancer,
+
+33
+00:01:31,185 --> 00:01:33,390
+that got our attention.
+
+34
+00:01:33,390 --> 00:01:36,000
+So now we decided to do a real experiment.
+

@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:04,375
+Interviewers never go and ask you interesting question, which surprised me.
+
+2
+00:00:04,375 --> 00:00:05,995
+We trained this network twice,
+
+3
+00:00:05,995 --> 00:00:08,160
+once from scratch with random weights,
+
+4
+00:00:08,160 --> 00:00:12,533
+and once pre-initialized using weights that Google supplied us,
+
+5
+00:00:12,532 --> 00:00:14,964
+which had previously been arrived at by
+
+6
+00:00:14,964 --> 00:00:17,519
+training this network to do complete different things,
+
+7
+00:00:17,519 --> 00:00:21,245
+like cats and dogs and horses and cars.
+
+8
+00:00:21,245 --> 00:00:24,030
+Now, do you think the pre-training with cats and horses and
+
+9
+00:00:24,030 --> 00:00:28,195
+cars will make cancer classification better,
+
+10
+00:00:28,195 --> 00:00:31,000
+it would be indifferent, or it's going to make it worse?
+

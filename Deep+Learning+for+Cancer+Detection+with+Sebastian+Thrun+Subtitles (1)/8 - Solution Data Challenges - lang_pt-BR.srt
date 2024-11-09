@@ -1,0 +1,44 @@
+1
+00:00:00,133 --> 00:00:03,667
+Se tiver a minha intuição,
+marcou os três primeiros pontos,
+
+2
+00:00:03,701 --> 00:00:05,334
+mas não o quarto.
+
+3
+00:00:05,367 --> 00:00:07,567
+Nos nossos dados,
+alguns dermatologistas
+
+4
+00:00:07,601 --> 00:00:10,734
+pegaram imagens específicas
+de doenças de pele
+
+5
+00:00:10,767 --> 00:00:14,834
+e usaram marcadores amarelos
+como referência de tamanho.
+
+6
+00:00:14,868 --> 00:00:17,701
+A rede neural pode classificar
+a doença
+
+7
+00:00:17,734 --> 00:00:20,400
+ao se tornar uma detectora
+de marcadores amarelos.
+
+8
+00:00:20,434 --> 00:00:24,234
+Com 130 mil imagens,
+achar as com marcadores amarelos
+
+9
+00:00:24,267 --> 00:00:27,634
+e saber que existiam
+demorou meses.
+

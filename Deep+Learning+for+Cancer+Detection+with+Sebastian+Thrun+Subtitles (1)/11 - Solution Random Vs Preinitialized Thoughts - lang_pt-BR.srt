@@ -1,0 +1,64 @@
+1
+00:00:00,100 --> 00:00:02,200
+A surpresa é que melhora.
+
+2
+00:00:02,234 --> 00:00:05,734
+Tivemos resultados melhores
+com uma rede pré-treinada
+
+3
+00:00:05,767 --> 00:00:08,267
+com objetos
+completamente diferentes
+
+4
+00:00:08,300 --> 00:00:10,167
+do que treinar a rede
+do zero.
+
+5
+00:00:10,200 --> 00:00:14,000
+Os recursos que se desenvolvem
+nas camadas da rede neural,
+
+6
+00:00:14,033 --> 00:00:16,501
+independentemente
+das imagens usadas,
+
+7
+00:00:16,534 --> 00:00:20,767
+têm associação o suficiente
+para ser uma classificadora melhor.
+
+8
+00:00:20,801 --> 00:00:23,334
+Acho isso interessante
+porque sou pai.
+
+9
+00:00:23,367 --> 00:00:27,501
+Nos primeiros anos,
+meu filho olhava em volta, sem foco,
+
+10
+00:00:27,534 --> 00:00:30,968
+mas não entendia
+por que fazemos isso.
+
+11
+00:00:31,000 --> 00:00:35,234
+Agora sei que essas ações
+de percepção aleatórias
+
+12
+00:00:35,267 --> 00:00:38,901
+fazem a estrutura evoluir
+no córtex de visão
+
+13
+00:00:38,934 --> 00:00:41,601
+para que meu filho,
+se quiser, se torne médico.
+

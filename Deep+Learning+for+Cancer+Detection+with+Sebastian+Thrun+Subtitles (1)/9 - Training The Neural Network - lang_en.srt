@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:02,660
+The architecture of the net was very standard.
+
+2
+00:00:02,660 --> 00:00:04,554
+It was taken from Google.
+
+3
+00:00:04,554 --> 00:00:06,259
+It was a recurrent convolution.
+
+4
+00:00:06,259 --> 00:00:09,419
+And our network is shown over here. Different layers.
+
+5
+00:00:09,419 --> 00:00:11,685
+In fact, we experimented both with
+
+6
+00:00:11,685 --> 00:00:13,890
+completely untrained networks and
+
+7
+00:00:13,890 --> 00:00:17,234
+networks that had been pre-trained by googling other images.
+
+8
+00:00:17,234 --> 00:00:21,600
+And then they would feed in the image that we care about,
+
+9
+00:00:21,600 --> 00:00:25,830
+the skin lesion, and train the class label.
+
+10
+00:00:25,829 --> 00:00:27,864
+We didn't quite use 2,000 translabels.
+
+11
+00:00:27,864 --> 00:00:30,849
+Many of these had misspellings and were a replica of the same.
+
+12
+00:00:30,850 --> 00:00:34,135
+But we just did about 757 class labels.
+
+13
+00:00:34,134 --> 00:00:37,004
+If you care about it, you can read in the paper how we did this.
+
+14
+00:00:37,005 --> 00:00:40,080
+And then we trained the network to detect a specific class label.
+

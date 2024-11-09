@@ -1,0 +1,40 @@
+1
+00:00:00,067 --> 00:00:03,467
+Se a rede escolher
+um número aleatório,
+
+2
+00:00:03,501 --> 00:00:07,667
+a saída da curva ROC
+vai ser a linha reta.
+
+3
+00:00:07,968 --> 00:00:10,634
+Você pode aumentar
+o valor limite.
+
+4
+00:00:10,667 --> 00:00:14,634
+Quanto mais aumenta,
+mais câncer e não-câncer encontra.
+
+5
+00:00:14,667 --> 00:00:17,734
+A relação entre câncer
+e não-câncer é linear.
+
+6
+00:00:17,767 --> 00:00:20,934
+Um algoritmo aleatório
+mostra uma linha reta.
+
+7
+00:00:20,968 --> 00:00:24,701
+Tudo abaixo da linha reta
+precisa de um teste
+
+8
+00:00:24,734 --> 00:00:27,367
+porque pode matar
+as pessoas.
+

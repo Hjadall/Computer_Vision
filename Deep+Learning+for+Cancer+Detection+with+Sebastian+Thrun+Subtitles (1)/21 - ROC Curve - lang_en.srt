@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:02,629
+Here's our curve for Carcinoma.
+
+2
+00:00:02,629 --> 00:00:04,849
+You find that in certain regimes,
+
+3
+00:00:04,849 --> 00:00:06,389
+it's 100 percent specific,
+
+4
+00:00:06,389 --> 00:00:08,240
+100 percent sensitive, and it's
+
+5
+00:00:08,240 --> 00:00:12,684
+only the little blue area on the top right that I are misclassifications.
+
+6
+00:00:12,685 --> 00:00:17,100
+And there, we can now set thresholds to emphasize the detection of
+
+7
+00:00:17,100 --> 00:00:21,689
+cancer or the reduce the cost of false diagnosis in the lab.
+
+8
+00:00:21,689 --> 00:00:24,405
+Now, our very first doctor is this point over here,
+
+9
+00:00:24,405 --> 00:00:27,441
+and it's shocking to see how much fat is below or the blue curve.
+
+10
+00:00:27,440 --> 00:00:30,309
+In fact for the same specitivity,
+
+11
+00:00:30,309 --> 00:00:34,429
+he will miss three times as many cancers as our normal program is.
+
+12
+00:00:34,429 --> 00:00:38,094
+That is quite significant, in my opinion.
+
+13
+00:00:38,094 --> 00:00:41,609
+We then decided to test even more doctors and
+
+14
+00:00:41,609 --> 00:00:45,644
+here's a test set of 25 dermatologists all in the same data.
+
+15
+00:00:45,645 --> 00:00:47,245
+And what you find is,
+
+16
+00:00:47,244 --> 00:00:52,349
+there is a whole bunch of people that are willing to send people to the lab but still
+
+17
+00:00:52,350 --> 00:00:58,140
+miss significant number of cancers where our evidence is effectively perfect.
+
+18
+00:00:58,140 --> 00:00:59,939
+What's also shocking about the result to me,
+
+19
+00:00:59,939 --> 00:01:01,585
+personally, is the spread.
+
+20
+00:01:01,585 --> 00:01:04,500
+There are some that are aggressively sending
+
+21
+00:01:04,500 --> 00:01:08,234
+skin samples to the lab and have a good chance of finding your cancers,
+
+22
+00:01:08,234 --> 00:01:12,614
+and others probably laugh by the endurances who don't send few of the samples to the lab,
+
+23
+00:01:12,614 --> 00:01:15,307
+and therefore, reduce diagnostic costs.
+
+24
+00:01:15,308 --> 00:01:18,575
+Who knows? But you can see from this diagram,
+
+25
+00:01:18,575 --> 00:01:21,150
+whether your personal skin cancer's detected,
+
+26
+00:01:21,150 --> 00:01:23,760
+depends a lot on which doctor you choose.
+
+27
+00:01:23,760 --> 00:01:25,859
+And since this kind of data is never made public,
+
+28
+00:01:25,859 --> 00:01:29,239
+we don't even know which doctor are more specific,
+
+29
+00:01:29,239 --> 00:01:31,439
+measure more sensitive to cancer.
+
+30
+00:01:31,439 --> 00:01:33,939
+They appear the safer melanomas, the more important class,
+
+31
+00:01:33,939 --> 00:01:37,814
+and yet the results are left with a conventional image.
+
+32
+00:01:37,814 --> 00:01:41,724
+On the right side, results taken with a special instrument called a dormoscope,
+
+33
+00:01:41,724 --> 00:01:45,824
+and you can see again the enormous spread in all these cases,
+
+34
+00:01:45,825 --> 00:01:49,150
+the green dot is the mean of all the doctors.
+
+35
+00:01:49,150 --> 00:01:53,640
+So, we went to all doctors and took the mean vote by the doctors.
+
+36
+00:01:53,640 --> 00:01:54,775
+You would, in all cases,
+
+37
+00:01:54,775 --> 00:02:00,000
+feel significantly worse than if a neural network looks at your skin.
+

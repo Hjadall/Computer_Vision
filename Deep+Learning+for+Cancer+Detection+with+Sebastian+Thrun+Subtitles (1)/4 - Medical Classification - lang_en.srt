@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:04,929
+Here, you see the natural evolution of a melanoma over the years from 2003 to 2006.
+
+2
+00:00:04,929 --> 00:00:09,300
+And there's characteristics that doctors use for finding melanomas.
+
+3
+00:00:09,300 --> 00:00:11,970
+They look at the fuzziness of the border, the asymmetry,
+
+4
+00:00:11,970 --> 00:00:13,080
+the coloration, of course,
+
+5
+00:00:13,080 --> 00:00:14,833
+the growth rate if it is accessible.
+
+6
+00:00:14,833 --> 00:00:16,399
+But still, classifying melanomas, as I've shown you,
+
+7
+00:00:16,399 --> 00:00:18,779
+is very hard problem.
+
+8
+00:00:18,780 --> 00:00:21,955
+Partially, it's hard because some people have lots of moles.
+
+9
+00:00:21,954 --> 00:00:25,664
+These are clinical images of two backs and you can see how many moles they are,
+
+10
+00:00:25,664 --> 00:00:28,554
+and finding the one that's malignant is really, really hard.
+
+11
+00:00:28,554 --> 00:00:34,109
+So, dermatologists are extremely highly trained to find melanomas and carcinomas.
+
+12
+00:00:34,109 --> 00:00:36,664
+And as a result, they make a lot of money.
+
+13
+00:00:36,664 --> 00:00:40,859
+The average dermatologist in United States makes more than $400,000 a year.
+
+14
+00:00:40,859 --> 00:00:44,505
+There is about 10,000 of them in total and they are incredibly hard to train
+
+15
+00:00:44,505 --> 00:00:49,000
+because they need to make life and death decisions in diagnosing your skin.
+

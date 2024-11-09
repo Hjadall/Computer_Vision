@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:02,339
+Collecting data from datasets,
+
+2
+00:00:02,339 --> 00:00:04,029
+we have to clean up the data and integrate data,
+
+3
+00:00:04,030 --> 00:00:07,755
+and if you become a serious machine learning engineer,
+
+4
+00:00:07,754 --> 00:00:10,900
+you would spend a lot of time data cleanup.
+
+5
+00:00:10,900 --> 00:00:14,460
+Here are four things in this quiz that one might find,
+
+6
+00:00:14,460 --> 00:00:18,000
+and I want you to check mark the ones that you think refine our data.
+

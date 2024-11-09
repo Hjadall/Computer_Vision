@@ -1,0 +1,24 @@
+1
+00:00:00,100 --> 00:00:03,701
+Você já sabe
+sobre recall e precisão.
+
+2
+00:00:03,734 --> 00:00:07,701
+Na medicina usamos
+sensibilidade e especificidade.
+
+3
+00:00:07,734 --> 00:00:11,801
+Antes de mostrar a diferença,
+temos um questionário.
+
+4
+00:00:11,834 --> 00:00:14,534
+Qual é a relação entre
+sensibilidade e especificidade
+
+5
+00:00:14,567 --> 00:00:15,667
+e recall e precisão?
+

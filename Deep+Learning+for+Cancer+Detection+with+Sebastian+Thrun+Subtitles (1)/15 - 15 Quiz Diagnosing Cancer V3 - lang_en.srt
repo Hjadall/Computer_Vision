@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:03,779
+Before we dive into the best strategy for diagnosing, let me just do a quiz.
+
+2
+00:00:03,779 --> 00:00:08,129
+Have you ever know a network that outputs the probability of a melanoma?
+
+3
+00:00:08,130 --> 00:00:11,714
+And we have now set a special value.
+
+4
+00:00:11,714 --> 00:00:16,425
+When we decide to classify it as melanoma or as no melanoma.
+
+5
+00:00:16,425 --> 00:00:20,000
+And their value is between zero and one what value would you choose?
+

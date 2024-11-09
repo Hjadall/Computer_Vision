@@ -1,0 +1,29 @@
+1
+00:00:00,400 --> 00:00:02,234
+Ao coletar os dados,
+
+2
+00:00:02,267 --> 00:00:04,767
+tivemos que limpá-los
+e integrá-los.
+
+3
+00:00:04,801 --> 00:00:08,400
+Se você se tornar um engenheiro
+de máquina de aprendizado,
+
+4
+00:00:08,434 --> 00:00:11,033
+você vai passar muito tempo
+limpando dados.
+
+5
+00:00:11,067 --> 00:00:14,701
+Existem quatro coisas
+que podem ser encontradas.
+
+6
+00:00:14,734 --> 00:00:17,767
+Marque as que você acha
+que encontramos.
+

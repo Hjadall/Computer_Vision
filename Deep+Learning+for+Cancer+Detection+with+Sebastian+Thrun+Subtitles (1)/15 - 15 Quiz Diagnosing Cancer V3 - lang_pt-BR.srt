@@ -1,0 +1,28 @@
+1
+00:00:00,133 --> 00:00:02,834
+Antes de falar da estratégia
+para o diagnóstico,
+
+2
+00:00:02,868 --> 00:00:04,200
+um questionário.
+
+3
+00:00:04,234 --> 00:00:08,400
+A rede neural fornece
+a probabilidade de um melanoma
+
+4
+00:00:08,434 --> 00:00:11,367
+e temos um valor limite
+
+5
+00:00:11,400 --> 00:00:16,567
+quando classificamos
+como melanoma ou não.
+
+6
+00:00:16,601 --> 00:00:19,701
+O valor é entre zero e um.
+Qual valor você escolheria?
+

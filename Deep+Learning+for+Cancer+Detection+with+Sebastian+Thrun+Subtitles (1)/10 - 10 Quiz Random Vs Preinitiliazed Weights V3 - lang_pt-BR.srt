@@ -1,0 +1,44 @@
+1
+00:00:00,100 --> 00:00:04,000
+Quero fazer uma pergunta
+que me surpreendeu.
+
+2
+00:00:04,300 --> 00:00:06,434
+Treinamos a rede duas vezes.
+
+3
+00:00:06,467 --> 00:00:08,567
+Uma do zero,
+com pesos aleatórios,
+
+4
+00:00:08,601 --> 00:00:13,000
+e uma pré-inicializada usando pesos
+que o Google forneceu,
+
+5
+00:00:13,033 --> 00:00:15,767
+que foram resultados
+do treinamento da rede
+
+6
+00:00:15,801 --> 00:00:21,234
+para identificar coisas diferentes,
+como gatos, cães, cavalos e carros.
+
+7
+00:00:21,267 --> 00:00:25,300
+Você acha que o pré-treinamento
+com gatos, cavalos e carros
+
+8
+00:00:25,334 --> 00:00:28,200
+vai melhorar
+a classificação do câncer,
+
+9
+00:00:28,234 --> 00:00:30,734
+não vai fazer diferença
+ou vai piorá-la?
+

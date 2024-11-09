@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:03,870
+Machine Learning has beautiful techniques to visualize results.
+
+2
+00:00:03,870 --> 00:00:06,150
+And one of the experiments we did is to take
+
+3
+00:00:06,150 --> 00:00:10,050
+these incredibly high dimensional outputs and cluster them into two-dimensional space.
+
+4
+00:00:10,050 --> 00:00:13,015
+These are technologies that you could learn now on machinery
+
+5
+00:00:13,015 --> 00:00:16,335
+that we won't go into detail but the image is fun to see.
+
+6
+00:00:16,335 --> 00:00:20,450
+The East dot in this two-dimensional sphere is now one image patch.
+
+7
+00:00:20,449 --> 00:00:25,980
+You can then appear to dot and rearranging these dots by proximity,
+
+8
+00:00:25,980 --> 00:00:31,399
+by similarity in our feature space as embodied by the neural network.
+
+9
+00:00:31,399 --> 00:00:33,464
+And what you find is that,
+
+10
+00:00:33,465 --> 00:00:37,250
+different types of images cluster very nicely in
+
+11
+00:00:37,250 --> 00:00:41,134
+the space of features extracted by the neural networks the melanomas evaded
+
+12
+00:00:41,134 --> 00:00:45,539
+sensing class that says in a certain primitive space that is very different from
+
+13
+00:00:45,539 --> 00:00:50,185
+various other types of carcinomas and skin conditions in this visualization over him.
+
+14
+00:00:50,185 --> 00:00:52,635
+There's an interesting finding that no liquid really comes because
+
+15
+00:00:52,634 --> 00:00:56,015
+the substance of what it means to classify it as skin cancer.
+
+16
+00:00:56,015 --> 00:01:00,924
+In my opinion, much more profound way than possibly before this experiment.
+
+17
+00:01:00,924 --> 00:01:03,989
+If you look back on the images that are represented by
+
+18
+00:01:03,990 --> 00:01:08,219
+these dots you can look at the original raw images and you find to the human eye.
+
+19
+00:01:08,219 --> 00:01:12,459
+There's also similarities or similar images are being grouped and similar places as.
+

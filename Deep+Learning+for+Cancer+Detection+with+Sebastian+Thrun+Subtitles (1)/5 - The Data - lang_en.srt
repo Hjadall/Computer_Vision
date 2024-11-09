@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:03,735
+So let us talk about deep learning for skin cancer classification.
+
+2
+00:00:03,735 --> 00:00:05,430
+My students, Brett and Andre,
+
+3
+00:00:05,430 --> 00:00:07,785
+and our collaborators in the School of Medicine,
+
+4
+00:00:07,785 --> 00:00:10,710
+collected roughly 130,000 images
+
+5
+00:00:10,710 --> 00:00:13,773
+of skin conditions from various data sources, including the Web.
+
+6
+00:00:13,773 --> 00:00:17,620
+Those include the images they are going to use for the competition.
+
+7
+00:00:17,620 --> 00:00:20,520
+And these images came with disease labels.
+
+8
+00:00:20,520 --> 00:00:22,118
+All these images were biopsied.
+
+9
+00:00:22,118 --> 00:00:27,160
+So someone had actually cut out the condition and done a correct diagnostic.
+
+10
+00:00:27,160 --> 00:00:30,589
+So we knew for all of these images what the ground truth classification is.
+
+11
+00:00:30,589 --> 00:00:33,480
+Unfortunately, it was not just cancer or non-cancer.
+
+12
+00:00:33,480 --> 00:00:35,370
+It came with 2,000 different diseases,
+
+13
+00:00:35,370 --> 00:00:37,830
+from inflammatory diseases, to rashes,
+
+14
+00:00:37,830 --> 00:00:40,580
+to lesions, to all kinds of stuff.
+
+15
+00:00:40,580 --> 00:00:43,845
+So we built a classification tree, manually,
+
+16
+00:00:43,845 --> 00:00:48,998
+of different types of diseases of the skin with 2,000 nodes at the end.
+
+17
+00:00:48,998 --> 00:00:50,480
+Here is a little small version of it.
+
+18
+00:00:50,480 --> 00:00:52,766
+Skin disease is shown in blue.
+
+19
+00:00:52,766 --> 00:00:54,353
+We have different types of diseases;
+
+20
+00:00:54,353 --> 00:00:58,455
+benign diseases, non-neoplastic diseases, and malignant diseases.
+
+21
+00:00:58,455 --> 00:01:00,885
+And even among the malignant diseases, there are many,
+
+22
+00:01:00,885 --> 00:01:03,710
+many different classes of carcinomas and melanomas.
+
+23
+00:01:03,710 --> 00:01:05,547
+And melanomas are this little black dot over here,
+
+24
+00:01:05,547 --> 00:01:08,000
+and that's the one we're really after because it is the more lethal of all cancers .
+

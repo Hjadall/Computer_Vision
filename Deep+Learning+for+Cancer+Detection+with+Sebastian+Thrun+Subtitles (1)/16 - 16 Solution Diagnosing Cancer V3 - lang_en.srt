@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:01,409
+If you've chosen 0.5,
+
+2
+00:00:01,409 --> 00:00:06,315
+then your chances of accidentally
+
+3
+00:00:06,315 --> 00:00:08,699
+missing a cancer are exactly the same as
+
+4
+00:00:08,699 --> 00:00:12,134
+your chances of calling something a cancer that isn't.
+
+5
+00:00:12,134 --> 00:00:14,129
+If you call it 0.8,
+
+6
+00:00:14,130 --> 00:00:17,385
+you will be great in reducing the cost of diagnostics,
+
+7
+00:00:17,385 --> 00:00:21,320
+but bad in helping people survive when they actually have skin cancer.
+
+8
+00:00:21,320 --> 00:00:24,315
+0.2 is the number I would choose from these numbers,
+
+9
+00:00:24,315 --> 00:00:28,755
+because of the asymmetry of costs of the regret.
+
+10
+00:00:28,754 --> 00:00:37,125
+So if you find that a person has been sent to the lab but the tissue was not cancerous,
+
+11
+00:00:37,125 --> 00:00:39,420
+you have a regret, discomfort in
+
+12
+00:00:39,420 --> 00:00:42,405
+getting skin extracted and there's a cost to the lab tests,
+
+13
+00:00:42,405 --> 00:00:43,780
+but the regret is small.
+
+14
+00:00:43,780 --> 00:00:46,695
+If conversely you overlook a cancer
+
+15
+00:00:46,695 --> 00:00:50,155
+because you've been just too cheap to send the person to the lab,
+
+16
+00:00:50,155 --> 00:00:52,085
+then this person might die.
+
+17
+00:00:52,085 --> 00:00:54,564
+And that's a much, much bigger cost.
+
+18
+00:00:54,564 --> 00:00:58,550
+As a result, 0.5 threshold is not the best threshold,
+
+19
+00:00:58,551 --> 00:01:01,530
+and we really have to set the threshold in a more aggre-
+

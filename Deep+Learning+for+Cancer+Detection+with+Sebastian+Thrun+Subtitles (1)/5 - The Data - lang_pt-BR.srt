@@ -1,0 +1,109 @@
+1
+00:00:00,133 --> 00:00:04,000
+Vamos ver o aprendizado profundo
+na classificação do câncer de pele.
+
+2
+00:00:04,033 --> 00:00:05,701
+Meus alunos, Brett e Andre,
+
+3
+00:00:05,734 --> 00:00:08,067
+e os colaboradores
+da escola de medicina
+
+4
+00:00:08,100 --> 00:00:11,067
+coletaram cerca
+de 130 mil imagens
+
+5
+00:00:11,100 --> 00:00:13,767
+de condições de pele,
+de várias fontes,
+
+6
+00:00:13,801 --> 00:00:15,300
+inclusive a internet.
+
+7
+00:00:15,334 --> 00:00:18,000
+Isso inclui as imagens
+que vamos usar.
+
+8
+00:00:18,033 --> 00:00:22,534
+As imagens têm rótulos de doença.
+A biópsia foi feita em todas.
+
+9
+00:00:22,567 --> 00:00:27,234
+Alguém removeu a doença
+e fez o diagnóstico correto,
+
+10
+00:00:27,267 --> 00:00:30,801
+então as imagens eram reais
+para a classificação.
+
+11
+00:00:30,834 --> 00:00:33,801
+Infelizmente não era só câncer
+e não câncer.
+
+12
+00:00:33,834 --> 00:00:35,734
+Havia 2 mil doenças
+diferentes,
+
+13
+00:00:35,767 --> 00:00:38,667
+como doenças inflamatórias,
+erupções, lesões
+
+14
+00:00:38,701 --> 00:00:40,601
+e várias outras coisas.
+
+15
+00:00:40,634 --> 00:00:43,400
+Criamos uma árvore
+de classificação
+
+16
+00:00:43,434 --> 00:00:47,267
+de tipos diferentes
+de doenças de pele,
+
+17
+00:00:47,300 --> 00:00:49,300
+com 2 mil nódulos no fim.
+
+18
+00:00:49,334 --> 00:00:51,133
+Esta é uma versão menor.
+
+19
+00:00:51,167 --> 00:00:54,467
+Doenças de pele está no azul.
+Há tipos diferentes.
+
+20
+00:00:54,501 --> 00:00:58,634
+Temos doenças benignas,
+não-neoplásticas e malignas.
+
+21
+00:00:58,667 --> 00:01:02,234
+Dentro das doenças malignas,
+há classes diferentes
+
+22
+00:01:02,267 --> 00:01:04,200
+de carcinomas e melanomas.
+
+23
+00:01:04,234 --> 00:01:08,434
+O melanoma é o que buscamos
+porque é o câncer mais fatal.
+

@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,100
+And the big surprise to us, what makes it better.
+
+2
+00:00:02,100 --> 00:00:05,714
+We had significantly better results within it was pretrain
+
+3
+00:00:05,714 --> 00:00:09,567
+on completely different objects than if he trained enough from scratch.
+
+4
+00:00:09,567 --> 00:00:12,019
+Somehow, the features that develop inside
+
+5
+00:00:12,019 --> 00:00:16,214
+his layers of neural network irrespective of what image that your are training on,
+
+6
+00:00:16,214 --> 00:00:20,634
+have enough commonality that you get a better classifier with pretraining.
+
+7
+00:00:20,635 --> 00:00:24,390
+That, to me, is interesting because I am a father and for the first few years,
+
+8
+00:00:24,390 --> 00:00:27,330
+my son would like babble around and look around randomly
+
+9
+00:00:27,329 --> 00:00:30,829
+and I could not quite understand why nature makes us do this.
+
+10
+00:00:30,829 --> 00:00:35,265
+But, now, I know that very likely in these random acts of perception,
+
+11
+00:00:35,265 --> 00:00:38,310
+structure evolves in the visual cortex that later becomes
+
+12
+00:00:38,310 --> 00:00:41,490
+useful and my son eventually will become a medical.
+

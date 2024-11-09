@@ -1,0 +1,174 @@
+1
+00:00:00,033 --> 00:00:02,634
+Aqui está a curva
+do carcinoma.
+
+2
+00:00:02,667 --> 00:00:07,767
+Em certos casos,
+é 100% específica e sensível.
+
+3
+00:00:07,801 --> 00:00:11,434
+Apenas a área azul
+no canto direito superior
+
+4
+00:00:11,467 --> 00:00:13,067
+são classificações erradas.
+
+5
+00:00:13,100 --> 00:00:15,601
+Agora podemos determinar
+valores limite
+
+6
+00:00:15,634 --> 00:00:18,234
+para enfatizar
+a detecção de câncer
+
+7
+00:00:18,267 --> 00:00:21,601
+ou de reduzir o custo
+do diagnóstico falso.
+
+8
+00:00:21,634 --> 00:00:24,634
+Nosso primeiro médico
+é este ponto.
+
+9
+00:00:24,667 --> 00:00:27,734
+É um choque ver
+como está abaixo da curva.
+
+10
+00:00:27,767 --> 00:00:30,300
+Na mesma especificidade,
+
+11
+00:00:30,334 --> 00:00:35,367
+ele vai deixar de ver três vezes
+mais câncer do que a rede neural.
+
+12
+00:00:35,400 --> 00:00:38,200
+É muito significativo.
+
+13
+00:00:38,234 --> 00:00:41,501
+Resolvemos testar
+mais médicos.
+
+14
+00:00:41,534 --> 00:00:46,000
+Temos o teste de 25 dermatologistas
+nos mesmos dados.
+
+15
+00:00:46,033 --> 00:00:48,968
+Vemos que há muitas pessoas
+
+16
+00:00:49,000 --> 00:00:52,067
+que querem mandar alguém
+para o laboratório,
+
+17
+00:00:52,100 --> 00:00:55,167
+mas não veem um número
+significativo de cânceres,
+
+18
+00:00:55,200 --> 00:00:58,100
+e o nosso algoritmo
+é perfeito.
+
+19
+00:00:58,133 --> 00:01:01,801
+O que me choca no resultado
+é a dispersão.
+
+20
+00:01:01,834 --> 00:01:06,400
+Alguns mandam amostras de pele
+para o laboratório
+
+21
+00:01:06,434 --> 00:01:08,701
+e têm uma boa chance
+de achar o câncer.
+
+22
+00:01:08,734 --> 00:01:12,634
+Outros mandam poucas amostras
+para o laboratório
+
+23
+00:01:12,667 --> 00:01:16,033
+e reduzem o custo
+do diagnóstico.
+
+24
+00:01:16,067 --> 00:01:21,234
+Mas podemos ver no diagrama
+que a detecção do seu câncer
+
+25
+00:01:21,267 --> 00:01:24,033
+depende muito do médico
+que você escolhe.
+
+26
+00:01:24,067 --> 00:01:26,434
+Como esses dados
+nunca foram a público,
+
+27
+00:01:26,467 --> 00:01:29,167
+não sabemos que médicos
+são mais específicos
+
+28
+00:01:29,200 --> 00:01:30,934
+ou mais sensíveis ao câncer.
+
+29
+00:01:31,467 --> 00:01:34,934
+Fizemos o mesmo com o melanoma,
+a classe mais importante.
+
+30
+00:01:34,968 --> 00:01:38,367
+O resultado da esquerda
+é uma imagem convencional
+
+31
+00:01:38,400 --> 00:01:42,133
+e o da direita foi feito
+com um dermatoscópio.
+
+32
+00:01:42,167 --> 00:01:44,901
+Podemos ver a dispersão.
+
+33
+00:01:44,934 --> 00:01:49,334
+Em todos os casos, o ponto verde
+é a média dos médicos.
+
+34
+00:01:49,367 --> 00:01:53,701
+Se você fosse
+a esses médicos,
+
+35
+00:01:53,734 --> 00:01:56,934
+em todos os casos,
+você se sentiria pior
+
+36
+00:01:56,968 --> 00:01:59,701
+do que se a rede neural
+avaliasse a sua pele.
+

@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:01,720
+If you have the same intuition like me,
+
+2
+00:00:01,720 --> 00:00:04,509
+you check the first three points, but not the fourth one.
+
+3
+00:00:04,509 --> 00:00:06,134
+But it turns out, in our data,
+
+4
+00:00:06,134 --> 00:00:08,730
+some dermatologists had taken specific instances of
+
+5
+00:00:08,730 --> 00:00:12,480
+skin diseases and edit yellow markers into
+
+6
+00:00:12,480 --> 00:00:16,050
+the images for sizing and the neural network could have perfectly
+
+7
+00:00:16,050 --> 00:00:19,679
+classified that specific disease by becoming a yellow marker detector.
+
+8
+00:00:19,679 --> 00:00:22,814
+So, finding in our data set of 130,000 images,
+
+9
+00:00:22,815 --> 00:00:26,220
+those images with yellow markers, even having the idea that might exist in there,
+
+10
+00:00:26,219 --> 00:00:28,000
+that took months for us to do.
+

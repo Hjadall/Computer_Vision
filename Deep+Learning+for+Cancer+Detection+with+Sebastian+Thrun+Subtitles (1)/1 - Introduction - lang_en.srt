@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:01,945
+Hi. My name is Sebastian.
+
+2
+00:00:01,945 --> 00:00:05,835
+You might know me as the godfather of self driving cars,
+
+3
+00:00:05,835 --> 00:00:11,240
+as Udacity co-founder, or just as a random guy who lives in Palo Alto.
+
+4
+00:00:11,240 --> 00:00:15,551
+But I also teach at Stanford and my Stanford students and I,
+
+5
+00:00:15,551 --> 00:00:21,195
+this year, looked into skin cancer as an application for deep learning.
+
+6
+00:00:21,195 --> 00:00:25,060
+In this lesson, I would tell you some of the results we've accomplished.
+
+7
+00:00:25,059 --> 00:00:29,144
+May ask you a few questions but most importantly, at the end of his lesson,
+
+8
+00:00:29,144 --> 00:00:32,549
+you'll give a chance to train your own deep network to
+
+9
+00:00:32,549 --> 00:00:36,149
+detect skin cancer using an international data set that we provide.
+

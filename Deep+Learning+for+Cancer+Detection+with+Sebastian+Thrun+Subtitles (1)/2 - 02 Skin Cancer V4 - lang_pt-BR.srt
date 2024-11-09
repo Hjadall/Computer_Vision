@@ -1,0 +1,117 @@
+1
+00:00:00,601 --> 00:00:02,133
+Vamos começar.
+
+2
+00:00:02,167 --> 00:00:04,400
+Para preparar o terreno,
+
+3
+00:00:04,434 --> 00:00:08,367
+o câncer de pele é o câncer
+mais comum do mundo.
+
+4
+00:00:08,400 --> 00:00:10,467
+Não é mais fatal,
+e sim o mais comum.
+
+5
+00:00:10,501 --> 00:00:15,434
+Nos EUA temos 5,4 milhões
+de novos casos por ano.
+
+6
+00:00:15,467 --> 00:00:17,367
+Eles têm tipos diferentes.
+
+7
+00:00:17,400 --> 00:00:20,300
+Podem ser carcinomas
+ou melanomas.
+
+8
+00:00:20,334 --> 00:00:23,834
+Os melanomas tipicamente
+matam as pessoas.
+
+9
+00:00:24,400 --> 00:00:27,334
+20% dos americanos
+vão ter câncer de pele.
+
+10
+00:00:27,367 --> 00:00:29,434
+Na maioria dos casos
+é benigno.
+
+11
+00:00:29,467 --> 00:00:33,300
+O pré-câncer,
+ou ceratose actínica,
+
+12
+00:00:33,334 --> 00:00:37,534
+afeta 58 milhões de americanos
+e muitos mais pessoas no mundo.
+
+13
+00:00:37,567 --> 00:00:41,234
+Nos EUA temos 76 mil melanomas
+por ano
+
+14
+00:00:41,267 --> 00:00:43,834
+e 10 mil mortes.
+
+15
+00:00:43,868 --> 00:00:45,434
+Para dar uma perspectiva,
+
+16
+00:00:45,467 --> 00:00:48,167
+temos 40 mil acidentes
+de carro por ano,
+
+17
+00:00:48,200 --> 00:00:52,400
+então é mais provável
+que você morra num acidente
+
+18
+00:00:52,434 --> 00:00:54,033
+do que de câncer de pele.
+
+19
+00:00:54,067 --> 00:00:57,701
+O custo para os EUA por ano
+é de US$ 8,1 bilhões em tratamento
+
+20
+00:00:57,734 --> 00:00:59,334
+e diagnóstico.
+
+21
+00:00:59,367 --> 00:01:03,367
+Quero fazer um questionário
+que exige o uso do Google.
+
+22
+00:01:03,767 --> 00:01:07,467
+O câncer de pele
+vai do estágio 0 ao IV.
+
+23
+00:01:07,501 --> 00:01:10,200
+Qual é a probabilidade
+de sobrevivência de 5 anos
+
+24
+00:01:10,234 --> 00:01:12,567
+para o câncer de pele
+no estágio IV?
+
+25
+00:01:12,601 --> 00:01:13,801
+E no estágio 0?
+

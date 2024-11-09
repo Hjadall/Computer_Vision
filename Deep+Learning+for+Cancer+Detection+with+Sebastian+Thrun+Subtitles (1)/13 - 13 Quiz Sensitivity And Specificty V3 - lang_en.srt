@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:03,645
+So you've learned about Recall and Precision.
+
+2
+00:00:03,645 --> 00:00:07,500
+In medicine, we often use the word sensitivity specificity.
+
+3
+00:00:07,500 --> 00:00:09,439
+And before I dive into the differences,
+
+4
+00:00:09,439 --> 00:00:11,878
+I do have a little quiz you have to Google for that.
+
+5
+00:00:11,878 --> 00:00:13,890
+What is the relationship between sensitivity specificity,
+
+6
+00:00:13,890 --> 00:00:16,000
+and recall and precision?
+

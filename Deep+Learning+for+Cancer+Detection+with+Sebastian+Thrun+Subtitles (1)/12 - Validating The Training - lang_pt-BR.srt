@@ -1,0 +1,153 @@
+1
+00:00:00,033 --> 00:00:02,901
+Para validar
+nossos resultados,
+
+2
+00:00:02,934 --> 00:00:05,634
+criamos um conjunto de testes
+independente
+
+3
+00:00:05,667 --> 00:00:08,000
+e tivemos trabalho
+para limpar os dados,
+
+4
+00:00:08,033 --> 00:00:10,334
+que, muitas vezes,
+estavam duplicados.
+
+5
+00:00:10,367 --> 00:00:15,067
+Não queríamos a repetição da imagem
+no treinamento e no teste.
+
+6
+00:00:15,868 --> 00:00:18,501
+Alguns dermatologistas
+colocaram marcadores
+
+7
+00:00:18,534 --> 00:00:20,701
+em classes específicas.
+
+8
+00:00:20,734 --> 00:00:23,834
+Eles usaram marcadores amarelos
+para determinar tamanhos.
+
+9
+00:00:23,868 --> 00:00:26,601
+Não queríamos usar a rede
+para achar marcadores,
+
+10
+00:00:26,634 --> 00:00:29,000
+então tivemos que remover
+essas imagens.
+
+11
+00:00:29,033 --> 00:00:32,901
+Depois da limpeza,
+usamos um subconjunto de imagens
+
+12
+00:00:32,934 --> 00:00:36,734
+para ser o conjunto teste
+e validar os resultados.
+
+13
+00:00:36,767 --> 00:00:40,834
+Na primeira vez que fizemos
+a classificação tripla
+
+14
+00:00:40,868 --> 00:00:43,801
+entre melanomas, carcinomas
+e benignas,
+
+15
+00:00:43,834 --> 00:00:48,601
+tivemos uma precisão de 72%
+em encontrar cânceres.
+
+16
+00:00:49,400 --> 00:00:51,934
+Achamos significativo.
+
+17
+00:00:51,968 --> 00:00:54,734
+Resolvemos ir à escola
+de medicina
+
+18
+00:00:54,767 --> 00:00:56,934
+e falar com um dermatologista
+de verdade.
+
+19
+00:00:56,968 --> 00:00:59,734
+A pessoa,
+que vai continuar anônima,
+
+20
+00:00:59,767 --> 00:01:03,467
+estava disposta a ver
+as imagens do teste.
+
+21
+00:01:03,501 --> 00:01:07,000
+A pessoa acertou 65%,
+
+22
+00:01:07,033 --> 00:01:10,133
+ou seja, 6,4% a menos
+que a gente.
+
+23
+00:01:10,167 --> 00:01:12,767
+Isso é significativo
+na detecção do câncer.
+
+24
+00:01:12,801 --> 00:01:15,667
+Então fomos atrás
+de um segundo dermatologista.
+
+25
+00:01:15,701 --> 00:01:17,267
+Ele estava disposto,
+
+26
+00:01:17,300 --> 00:01:20,934
+e o resultado foi de 66%
+de classificação correta.
+
+27
+00:01:20,968 --> 00:01:22,767
+Então, de repente,
+
+28
+00:01:22,801 --> 00:01:25,901
+a avaliação das imagens
+da rede neural
+
+29
+00:01:25,934 --> 00:01:27,467
+parecia ser mais precisa
+
+30
+00:01:27,501 --> 00:01:31,534
+do que a de dois dermatologistas
+certificados.
+
+31
+00:01:31,567 --> 00:01:33,567
+Isso chamou a nossa atenção.
+
+32
+00:01:33,601 --> 00:01:35,667
+Resolvemos fazer
+uma experiência.
+

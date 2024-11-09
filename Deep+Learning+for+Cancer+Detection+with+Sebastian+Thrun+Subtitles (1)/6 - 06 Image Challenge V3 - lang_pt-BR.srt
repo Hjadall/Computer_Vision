@@ -1,0 +1,58 @@
+1
+00:00:00,067 --> 00:00:03,033
+Para mostrar como é difícil
+achar o câncer de pele,
+
+2
+00:00:03,067 --> 00:00:04,667
+veja só esta imagem.
+
+3
+00:00:04,701 --> 00:00:07,868
+Se você tiver um parente
+ou amigo médico,
+
+4
+00:00:07,901 --> 00:00:11,267
+mostre a imagem e pergunte
+o que é o câncer.
+
+5
+00:00:11,300 --> 00:00:15,701
+Há tipos diferentes de lesões.
+Há lesões benignas e malignas.
+
+6
+00:00:15,734 --> 00:00:18,601
+Todas foram classificadas
+corretamente.
+
+7
+00:00:18,634 --> 00:00:23,100
+Desafio você a encontrar
+o padrão das quatro imagens...
+
+8
+00:00:23,133 --> 00:00:26,534
+Há 12 imagens em cima
+e 12 embaixo.
+
+9
+00:00:26,567 --> 00:00:27,968
+Não é fácil.
+
+10
+00:00:28,000 --> 00:00:30,701
+Por isso achamos a rede neural
+uma boa candidata,
+
+11
+00:00:30,734 --> 00:00:33,767
+já que ela processa
+milhares de imagens.
+
+12
+00:00:33,801 --> 00:00:37,868
+O médico não consegue analisar
+tantas imagens.
+

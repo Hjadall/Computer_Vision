@@ -1,0 +1,86 @@
+1
+00:00:00,100 --> 00:00:02,400
+Se você escolheu 0,5,
+
+2
+00:00:02,434 --> 00:00:07,467
+a probabilidade de acidentalmente
+não ver um câncer
+
+3
+00:00:07,501 --> 00:00:12,367
+é a mesma de chamar algo
+de câncer sem ser câncer.
+
+4
+00:00:12,400 --> 00:00:14,133
+Se escolher 0,8,
+
+5
+00:00:14,167 --> 00:00:17,767
+vai ser ótimo para reduzir
+o custo dos diagnósticos,
+
+6
+00:00:17,801 --> 00:00:21,367
+mas péssimo para ajudar
+quem tem câncer de pele.
+
+7
+00:00:21,400 --> 00:00:24,467
+O 0,2 não é o que eu
+escolheria
+
+8
+00:00:24,501 --> 00:00:29,601
+devido à assimetria dos custos
+do arrependimento.
+
+9
+00:00:29,634 --> 00:00:35,167
+Se você sabe que uma pessoa
+foi mandada ao laboratório,
+
+10
+00:00:35,200 --> 00:00:37,400
+mas o tecido
+não tinha câncer,
+
+11
+00:00:37,434 --> 00:00:40,767
+existe um desconforto
+na extração da pele
+
+12
+00:00:40,801 --> 00:00:44,000
+e um custo para o laboratório,
+mas há pouco arrependimento.
+
+13
+00:00:44,033 --> 00:00:46,801
+Se você deixar
+um câncer passar
+
+14
+00:00:46,834 --> 00:00:50,601
+porque foi avarento demais
+para mandar alguém ao laboratório,
+
+15
+00:00:50,634 --> 00:00:52,501
+essa pessoa pode morrer.
+
+16
+00:00:52,534 --> 00:00:54,868
+O custo é muito mais alto.
+
+17
+00:00:54,901 --> 00:00:58,367
+Como resultado,
+o limite de 0,5 não é o melhor.
+
+18
+00:00:58,400 --> 00:01:01,467
+O limite precisa ser
+mais agressivo.
+
